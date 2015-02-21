@@ -1,5 +1,5 @@
 select xt.install_js('XM','Worksheet','xtte', $$
-  /* Copyright (c) 1999-2011 by OpenMFG LLC, d/b/a xTuple. 
+  /* Copyright (c) 1999-2014 by OpenMFG LLC, d/b/a xTuple. 
      See www.xm.ple.com/CPAL for the full text of the software license. */
 
 (function () {
@@ -96,7 +96,7 @@ select xt.install_js('XM','Worksheet','xtte', $$
       if (options.taskId ) {
         res = data.retrieveRecord({
           nameSpace: "XM",
-          type: "Task",
+          type: "ProjectTask",
           id: options.taskId,
           superUser: true
         });

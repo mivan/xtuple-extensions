@@ -6,10 +6,6 @@ white:true*/
 (function () {
   "use strict";
 
-  XT.extensions.timeExpense = {
-    setVersion: function () {
-      XT.setVersion("1.5.0", "timeExpense");
-    }
-  };
+  XT.extensions.timeExpense = {};
 
 }());
